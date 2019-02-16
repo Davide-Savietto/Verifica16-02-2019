@@ -73,7 +73,7 @@ void loop() {
      
      i++;
   }
-  if(i >= cicli-1){
+  if(i >= cicli){
     digitalWrite(ledRosso, LOW);
   digitalWrite(ledGiallo, LOW);
     digitalWrite(ledBianco, LOW);
